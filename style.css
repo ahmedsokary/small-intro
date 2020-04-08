@@ -1,0 +1,105 @@
+body{
+  margin: 0px;
+  text-align: center;
+  background-color: #e4e4e4;
+}
+.cloud{
+  position: absolute;/*moving according to the div container as absloute move according to parent*/
+}
+.cloud2{
+position: absolute;/*moving according to the div container as absloute move according to parent*/
+top: -100px;
+right: 500px;
+
+}
+.container
+{
+position: relative;/*moving relative to the pagee itself*/
+top:50px;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 5.62rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+
+}
+
+
+.profile{
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 50%
+
+}
+.skill-row{
+  display: inline-block;/*as not to take the entire width*/
+  border-radius: 50%;
+  text-align: left;
+line-height: 2; /*change the height bet the text itself*/
+
+}
+.img1{
+  width: 30%;
+  float: left;
+  margin: 10px;
+  border-radius: 50%
+}
+.img2{width: 25%;
+float: right;
+margin: 10px;
+border-radius: 50%
+}
+h3{
+  font-family: 'Pacifico', cursive;
+  margin: 0;
+  color: lightblue;
+}
+h2{
+color:#66BFBF;
+
+}
+
+h4{
+
+    font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+hr{
+  border-style:none;
+  border-top: 2px dotted #EAF6F6;
+  width:15%
+
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+}
+.tag{
+margin-bottom:0;
+color:white;
+
+}
+
+a{
+  text-decoration: none;
+  color: #11999E;
+  padding: 5px;
+}
+a:hover{
+  text-decoration: underline;
+}
+button{
+  border-radius: 6px;
+  background-color:#66BFBF;
+  border-style: none;
+  height: 30px;
+  color: white;
+}
+
+
+.middle-container{}
